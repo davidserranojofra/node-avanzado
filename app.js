@@ -6,7 +6,7 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
-const i18n = require('./lib/i18nSetup');
+const i18n = require('./lib/i18nSetup')();
 
 /* jshint ignore:start */
 const db = require('./lib/connectMongoose');
@@ -26,6 +26,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.use(i18n.init);
 

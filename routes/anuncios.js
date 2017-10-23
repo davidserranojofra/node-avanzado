@@ -25,4 +25,12 @@ router.get('/', async function (req, res, next) {
   } catch(err) { return res.next(err); }
 });
 
+router.get('/lang/:locale', (req, res, next) => {
+  const locale = req.params.locale;
+
+  //Creo cookie
+  res.cookie('cookie-idioma', locale, { maxAge: 900000, httpOnly: true });
+  res.redirect('/anuncios');
+});
+
 module.exports = router;

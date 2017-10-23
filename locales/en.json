@@ -2,5 +2,22 @@
 	"empty_file": "the file {{file}} is empty",
 	"not_found": "Not Found",
 	"not_valid": "Not valid",
-	"generic": "There was an error: {{err}}"
+	"generic": "There was an error: {{err}}",
+	"Lista de Anuncios": "List of Advertisements",
+	"Listando:": "Listing:",
+	"Nombre": "Name",
+	"Venta": "Sale",
+	"Precio": "Price",
+	"Foto": "Photo",
+	"Tags": "Tags",
+	"moneda": "$",
+	"Ejemplos": "Examples",
+	"Todos": "All",
+	"Paginado": "Paginated",
+	"Ordenado por precio ascendente": "Sorter by ascending price",
+	"Con tag mobile": "With tag mobile",
+	"Volver a la home": "Return to home",
+	"Ordenado por precio descendente": "Sorted by price descending",
+	"Si": "Yes",
+	"No": "No"
 }
