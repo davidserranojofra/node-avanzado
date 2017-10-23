@@ -10,3 +10,13 @@ a {
 table tr td img {
   max-height: 20px;
 }
+
+.menu-idioma{
+  text-align: right;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.menu-item {
+  margin-right: 8px;
+}
